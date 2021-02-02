@@ -1,0 +1,88 @@
+
+.about-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text{
+    background-color: white;
+    color: black;
+    width: 600px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.about-text h1{
+    font-weight: 600;
+}
+
+.about-text h3{
+    font-weight: 400;
+}
+
+.about-text h6{
+    font-weight: 300;
+}
+
+.about-socials{
+    width: 300px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-socials a{
+    color: black;
+    text-decoration: none;
+}
+
+.about-socials button{
+    font-size: small;
+}
+
+.about-socials button:hover{
+    font-size: small;
+    background-color: dodgerblue;
+}
+
+.exit-explore{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: x-large;
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+}
+
+/* mobiles (landscape and portrait) */
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    .about-text{
+        background-color: white;
+        color: black;
+        width: 300px;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    .about-socials{
+        width: 100%;
+        font-size: 1.5em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+

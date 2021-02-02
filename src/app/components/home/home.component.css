@@ -1,0 +1,78 @@
+.home-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.home-components{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+
+
+.home-components button{
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    width: 200px;
+}
+
+
+.home-components button:hover{
+    margin-top: 20px;
+    background-color: dodgerblue;
+    color: white;
+    width: 200px;
+}
+
+
+.load-animation{
+    animation: load-in;
+    animation-duration: 3s;
+}
+
+.next-animation{
+    opacity: 0%;
+    animation: load-in-2 2s ease forwards;
+    animation-delay: 11s;
+}
+
+@keyframes load-in{
+    0% {
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+
+@keyframes load-in-2{
+    0% {
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+@keyframes load-in-3{
+    0% {
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+   
+
+
+ 
