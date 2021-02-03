@@ -46,11 +46,14 @@
 }
 
 .next-animation{
-    opacity: 0%;
-    animation: load-in-2 2s ease forwards;
-    animation-delay: 11s;
-    -webkit-animation: load-in-2 2s ease forwards;
-    -webkit-animation-delay: 11s;
+    -webkit-animation-name: load-in-2;
+    -webkit-animation-duration: 3s;
+    -moz-animation-name: load-in-2;
+    -moz-animation-duration: 3s;
+    -o-animation-name: load-in-2;
+    -o-animation-duration: 3s;
+    animation-name: load-in-2;
+    animation-duration: 3s;
 }
 
 
@@ -64,11 +67,15 @@
     to { -moz-opacity: 100%; }
 }
 
+@-o-keyframes load-in{
+    from { -o-opacity: 0%; }
+    to {-o-opacity: 100%; }
+}
+
 @keyframes load-in{
     from { opacity: 0%; }
     to{ opacity: 100%; }
 }
-
 
 
 @-webkit-keyframes load-in-2{
@@ -79,6 +86,11 @@
 @-moz-keyframes load-in-2{
     from { -moz-opacity: 0%; }
     to { -moz-opacity: 100%; }
+}
+
+@-o-keyframes load-in-2{
+    from { -o-opacity: 0%; }
+    to {-o-opacity: 100%; }
 }
 
 @keyframes load-in-2{
