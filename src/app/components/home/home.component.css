@@ -58,18 +58,18 @@
 
 
 @-webkit-keyframes load-in{
-    from { -webkit-opacity: 0%; }
-    to { -webkit-opacity: 100%; }
+    from { opacity: 0%; }
+    to { opacity: 100%; }
 }
 
 @-moz-keyframes load-in{
-    from { -moz-opacity: 0%; }
-    to { -moz-opacity: 100%; }
+    from { opacity: 0%; }
+    to { opacity: 100%; }
 }
 
 @-o-keyframes load-in{
-    from { -o-opacity: 0%; }
-    to {-o-opacity: 100%; }
+    from { opacity: 0%; }
+    to {opacity: 100%; }
 }
 
 @keyframes load-in{
@@ -79,18 +79,18 @@
 
 
 @-webkit-keyframes load-in-2{
-    from { -webkit-opacity: 0%; }
-    to { -webkit-opacity: 100%; }
+    from { opacity: 0%; }
+    to { opacity: 100%; }
 }
 
 @-moz-keyframes load-in-2{
-    from { -moz-opacity: 0%; }
-    to { -moz-opacity: 100%; }
+    from { opacity: 0%; }
+    to { opacity: 100%; }
 }
 
 @-o-keyframes load-in-2{
-    from { -o-opacity: 0%; }
-    to {-o-opacity: 100%; }
+    from {opacity: 0%; }
+    to {opacity: 100%; }
 }
 
 @keyframes load-in-2{
