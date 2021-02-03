@@ -46,6 +46,7 @@
 }
 
 .next-animation{
+    opacity: 0%;
     -webkit-animation-name: load-in-2;
     -webkit-animation-duration: 3s;
     -webkit-animation-delay: 12s;
