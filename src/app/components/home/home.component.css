@@ -37,12 +37,16 @@
 .load-animation{
     animation: load-in;
     animation-duration: 3s;
+    -webkit-animation: load-in;
+    -webkit-animation-duration: 3s;
 }
 
 .next-animation{
     opacity: 0%;
     animation: load-in-2 2s ease forwards;
     animation-delay: 11s;
+    -webkit-animation: load-in-2 2s ease forwards;
+    -webkit-animation-delay: 11s;
 }
 
 @keyframes load-in{
@@ -64,14 +68,6 @@
     }
 }
 
-@keyframes load-in-3{
-    0% {
-        opacity: 0%;
-    }
-    100%{
-        opacity: 100%;
-    }
-}
    
 
 
