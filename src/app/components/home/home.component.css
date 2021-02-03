@@ -35,10 +35,14 @@
 
 
 .load-animation{
-    animation: load-in;
-    animation-duration: 3s;
-    -webkit-animation: load-in;
+    -webkit-animation-name: load-in;
     -webkit-animation-duration: 3s;
+    -moz-animation-name: load-in;
+    -moz-animation-duration: 3s;
+    -o-animation-name: load-in;
+    -o-animation-duration: 3s;
+    animation-name: load-in;
+    animation-duration: 3s;
 }
 
 .next-animation{
@@ -49,13 +53,20 @@
     -webkit-animation-delay: 11s;
 }
 
+
+@-webkit-keyframes load-in{
+    0% { opacity: 0%; }
+    100%{ opacity: 100%; }
+}
+
+@-moz-keyframes load-in{
+    0% { opacity: 0%; }
+    100%{ opacity: 100%; }
+}
+
 @keyframes load-in{
-    0% {
-        opacity: 0%;
-    }
-    100%{
-        opacity: 100%;
-    }
+    0% { opacity: 0%; }
+    100%{ opacity: 100%; }
 }
 
 
