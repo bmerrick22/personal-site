@@ -193,7 +193,7 @@ export class MapboxComponent implements OnInit {
       var html = `
       <div style="color: black;display:flex; flex-direction: column; justify-content: center; align-items:center;">
         <h1 style="font-size: 1.5em;">Work</h1>
-        <h6 style="font-size: 1em; font-weight: 300;">For the year of 2021, I will be joining the team at Veeva to begin my professional career as an Associate Software Engineer!</h6>
+        <h6 style="font-size: 1em; font-weight: 300;">For the year of 2021, I will be joining the team at Veeva Systems to begin my professional career as an Associate Software Engineer!</h6>
       </div>
       `;
       var marker = new mapboxgl.Popup()
@@ -206,7 +206,7 @@ export class MapboxComponent implements OnInit {
       var html = `
       <div style="color: black;display:flex; flex-direction: column; justify-content: center; align-items:center;">
         <h1 style="font-size: 1.5em;">College</h1>
-        <h6 style="font-size: 1em; font-weight: 300;">From 2017-2021, I attended the University of Notre Dame and majored in Computer Science. I lived in St. Edward's hall and played on the club lacrosse team</h6>
+        <h6 style="font-size: 1em; font-weight: 300;">From 2017-2021, I attended the University of Notre Dame and majored in Computer Science. I lived in St. Edward's hall and played on the club lacrosse team.</h6>
       </div>
       `;
       var marker = new mapboxgl.Popup()
@@ -219,7 +219,7 @@ export class MapboxComponent implements OnInit {
       var html = `
       <div class="home" style="color: black;display:flex; flex-direction: column; justify-content: center; align-items:center;">
         <h1 style="font-size: 1.5em;">High School</h1>
-        <h6 style="font-size: 1em; font-weight: 300;">For most of my life, I lived in Winston Salem, NC where I attended Forsyth Country Day School for high school</h6>
+        <h6 style="font-size: 1em; font-weight: 300;">For most of my life, I lived in Winston Salem, NC and I attended Forsyth Country Day School for high school where I played Varsity lacrosse, soccer, and was Student Government President.</h6>
       </div>
       `;
       var marker = new mapboxgl.Popup()

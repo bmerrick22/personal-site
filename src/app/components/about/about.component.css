@@ -34,8 +34,14 @@
     font-weight: 300;
 }
 
+.about-actions{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
 .about-socials{
-    width: 300px;
+    width: 30%; 
     font-size: 1.5em;
     display: flex;
     justify-content: space-between;
@@ -45,13 +51,15 @@
 .about-socials a{
     color: black;
     text-decoration: none;
+    justify-self: flex-end;
 }
 
-.about-socials button{
+.about-actions button{
     font-size: small;
+    margin-left:auto ;
 }
 
-.about-socials button:hover{
+.about-actions button:hover{
     font-size: small;
     background-color: dodgerblue;
 }
