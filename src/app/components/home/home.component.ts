@@ -57,6 +57,6 @@ export class HomeComponent implements OnInit {
       delay: 75,
     });
 
-    typer.typeString("Hello, world...").pauseFor(1200).deleteAll(100).pauseFor(1200).typeString("My name is...").start();
+    typer.typeString("Hello, world...").pauseFor(1000).deleteAll(100).pauseFor(1000).typeString("My name is...").start();
   }
 }

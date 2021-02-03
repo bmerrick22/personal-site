@@ -5,14 +5,24 @@
         <fa-icon [icon]="exitIcon"></fa-icon>
     </div>
     <div #contents *ngIf="!explore" class="about-contents">
+
         <div class="about-text">
             <h1>about me</h1>
             <h3>Developer, frontend engineer, designer, student</h3>
-            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h6>
+            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h6>
             <div class="about-socials">
-                <a [attr.href]="social.url" *ngFor="let social of socials"><fa-icon [icon]="social.icon"></fa-icon></a>
-                <button  class="btn btn-outline-dark" (click)="exploreMap()">Explore Map</button>
+                <a [attr.href]="social.url" *ngFor="let social of socials">
+                    <fa-icon [icon]="social.icon"></fa-icon>
+                </a>
+                <button class="btn btn-outline-dark" (click)="exploreMap()">Explore Map</button>
             </div>
         </div>
     </div>
+
+
 </div>

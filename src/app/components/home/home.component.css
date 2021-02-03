@@ -46,19 +46,23 @@
 }
 
 .next-animation{
-    opacity: 0%;
+    opacity: 0;
     -webkit-animation-name: load-in-2;
     -webkit-animation-duration: 3s;
-    -webkit-animation-delay: 12s;
+    -webkit-animation-delay: 9s;
+    -webkit-animation-fill-mode: forwards;
     -moz-animation-name: load-in-2;
     -moz-animation-duration: 3s;
-    -moz-animation-delay: 12s;
+    -moz-animation-delay: 9s;
+    -moz-animation-fill-mode: forwards;
     -o-animation-name: load-in-2;
     -o-animation-duration: 3s;
-    -o-animation-delay: 12s;
+    -o-animation-delay: 9s;
+    -o-animation-fill-mode: forwards;
     animation-name: load-in-2;
     animation-duration: 3s;
-    animation-delay: 12s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
 }
 
 

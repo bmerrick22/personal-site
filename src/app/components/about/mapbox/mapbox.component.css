@@ -9,3 +9,15 @@
    opacity: 0.55;
    z-index: -1;
 }
+
+
+.mapboxgl-popup {
+    max-width: 400px;
+    background-color: white;
+    color: black;
+}
+
+.home{
+    color: black;
+    font-size: smaller;
+}

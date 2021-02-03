@@ -58,9 +58,9 @@
 
 .exit-explore{
     position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: x-large;
+    top: 15px;
+    right: 15px;
+    font-size: xx-large;
     color: white;
     cursor: pointer;
     z-index: 10;
