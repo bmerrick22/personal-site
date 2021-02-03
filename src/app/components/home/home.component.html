@@ -1,7 +1,7 @@
 <app-nav-bar class="nav-bar" [ngClass]="{'next-animation': animation}"></app-nav-bar>
 <div class="home-container">
     <div class="home-components">
-        <h2 #intro id="intro"  >My name is...</h2>
+        <h2 #intro id="intro" [ngClass]="{'load-animation': animation}" >My name is...</h2>
         <app-animated-logo></app-animated-logo>
         <button routerLink="/about" [ngClass]="{'next-animation': animation}" class="btn btn-outline-light">Let's Get Started</button>
     </div>  
