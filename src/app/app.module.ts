@@ -12,9 +12,9 @@ import { ContactComponent } from './components/contact/contact.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AnimatedLogoComponent } from './components/animated-logo/animated-logo.component';
-import { SplashComponent } from './components/splash/splash.component';
 import { MapboxComponent } from './components/about/mapbox/mapbox.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { BuildingComponent } from './components/building/building.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,8 +27,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     NavBarComponent,
     FooterComponent,
     AnimatedLogoComponent,
-    SplashComponent,
-    MapboxComponent
+    MapboxComponent,
+    BuildingComponent
   ],
   imports: [
     BrowserModule,
