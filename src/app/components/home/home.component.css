@@ -58,44 +58,44 @@
 
 
 @-webkit-keyframes load-in{
-    from { opacity: 0%; }
-    to { opacity: 100%; }
+    0% { opacity: 0%; }
+    100% { opacity: 100%; }
 }
 
 @-moz-keyframes load-in{
-    from { opacity: 0%; }
-    to { opacity: 100%; }
+    0% { opacity: 0%; }
+    100% { opacity: 100%; }
 }
 
 @-o-keyframes load-in{
-    from { opacity: 0%; }
-    to {opacity: 100%; }
+    0% { opacity: 0%; }
+    100% {opacity: 100%; }
 }
 
 @keyframes load-in{
-    from { opacity: 0%; }
-    to{ opacity: 100%; }
+    0% { opacity: 0%; }
+    100% { opacity: 100%; }
 }
 
 
 @-webkit-keyframes load-in-2{
-    from { opacity: 0%; }
-    to { opacity: 100%; }
+    0% { opacity: 0%; }
+    100% { opacity: 100%; }
 }
 
 @-moz-keyframes load-in-2{
-    from { opacity: 0%; }
-    to { opacity: 100%; }
+    0% { opacity: 0%; }
+    100% { opacity: 100%; }
 }
 
 @-o-keyframes load-in-2{
-    from {opacity: 0%; }
-    to {opacity: 100%; }
+    0% {opacity: 0%; }
+    100% {opacity: 100%; }
 }
 
 @keyframes load-in-2{
-    from { opacity: 0%; }
-    to{ opacity: 100%; }
+    0% { opacity: 0%; }
+    100% { opacity: 100%; }
 }
 
 
