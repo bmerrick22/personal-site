@@ -21,10 +21,10 @@ export class AboutComponent implements OnInit {
 
   buildSocialLinks(){
     //Build social media objects
-    let facebook = {icon: faFacebook, url: 'www.google.com'};
+    let facebook = {icon: faFacebook, url: 'https://www.facebook.com/ben.merrick.35/'};
     let linkedin = {icon: faLinkedin, url: 'https://www.linkedin.com/in/bfmerrick/'};
     let github = {icon: faGithub, url: 'https://github.com/bmerrick22'};
-    let instagram = {icon: faInstagram, url: 'www.google.com'};
+    let instagram = {icon: faInstagram, url: 'https://www.instagram.com/benmerrick22/'};
 
     //Push onto the array
     this.socials.push(instagram);
