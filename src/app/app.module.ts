@@ -14,6 +14,8 @@ import { AnimatedLogoComponent } from './components/animated-logo/animated-logo.
 import { MapboxComponent } from './components/about/mapbox/mapbox.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BuildingComponent } from './components/building/building.component';
+import { ChattrComponent } from './components/projects/chattr/chattr.component';
+import { GymsenseComponent } from './components/projects/gymsense/gymsense.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +29,9 @@ import { BuildingComponent } from './components/building/building.component';
     FooterComponent,
     AnimatedLogoComponent,
     MapboxComponent,
-    BuildingComponent
+    BuildingComponent,
+    ChattrComponent,
+    GymsenseComponent
   ],
   imports: [
     BrowserModule,

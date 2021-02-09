@@ -179,7 +179,7 @@ export class MapboxComponent implements OnInit {
       var html = `
       <div style="color: black;display:flex; flex-direction: column; justify-content: center; align-items:center;">
         <h1 style="font-size: 1.5em;">Home</h1>
-        <h6 style="font-size: 1em; font-weight: 300;">Currently living in Kenilworth, IL right outside of Chicago. The windy city has been my home since 2018!</h6>
+        <h6 style="font-size: 1em; font-weight: 300;">I'm currently living in the north suburbs of Chicago where the windy city has been my home since 2017!</h6>
       </div>
       `;
 
@@ -193,7 +193,7 @@ export class MapboxComponent implements OnInit {
       var html = `
       <div style="color: black;display:flex; flex-direction: column; justify-content: center; align-items:center;">
         <h1 style="font-size: 1.5em;">Work</h1>
-        <h6 style="font-size: 1em; font-weight: 300;">For the year of 2021, I will be joining the team at Veeva Systems to begin my professional career as an Associate Software Engineer!</h6>
+        <h6 style="font-size: 1em; font-weight: 300;">Starting in 2021, I will be joining the team at Veeva Systems to begin my professional career as an Associate Software Engineer!</h6>
       </div>
       `;
       var marker = new mapboxgl.Popup()

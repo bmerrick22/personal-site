@@ -4,7 +4,6 @@ import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './components/home/home.component';
 import { InterestsComponent } from './components/interests/interests.component';
-import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 
